@@ -3,20 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testNG.testNgGmo">
+      <class name="com.testNG.testNgAmazon">
         <methods>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="EnterGMOOnlineExternalframebackpack"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="testAmazon"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
-          <include name="afterTest"/>
-          <include name="afterClass"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-          <include name="beforeClass"/>
-          <include name="testGmo"/>
         </methods>
-      </class> <!-- com.testNG.testNgGmo -->
+      </class> <!-- com.testNG.testNgAmazon -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

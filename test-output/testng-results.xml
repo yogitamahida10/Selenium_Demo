@@ -1,61 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-25T20:33:18 PDT" name="Default suite" finished-at="2022-05-25T20:33:20 PDT" duration-ms="2144">
+  <suite started-at="2023-06-23T20:35:28 EDT" name="Default suite" finished-at="2023-06-23T20:35:36 EDT" duration-ms="8672">
     <groups>
     </groups>
-    <test started-at="2022-05-25T20:33:18 PDT" name="Default test" finished-at="2022-05-25T20:33:20 PDT" duration-ms="2144">
-      <class name="com.testNG.testNgGmo">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:16 PDT" name="beforeSuite" finished-at="2022-05-25T20:33:18 PDT" duration-ms="2235" status="PASS">
+    <test started-at="2023-06-23T20:35:28 EDT" name="Default test" finished-at="2023-06-23T20:35:36 EDT" duration-ms="8672">
+      <class name="com.testNG.testNgAmazon">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:28 EDT" name="beforeSuite" finished-at="2023-06-23T20:35:28 EDT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:18 PDT" name="beforeTest" finished-at="2022-05-25T20:33:18 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:28 EDT" name="beforeTest" finished-at="2023-06-23T20:35:28 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:18 PDT" name="beforeClass" finished-at="2022-05-25T20:33:18 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:28 EDT" name="beforeClass" finished-at="2023-06-23T20:35:28 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:18 PDT" name="beforeMethod" finished-at="2022-05-25T20:33:18 PDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:28 EDT" name="beforeMethod" finished-at="2023-06-23T20:35:28 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testGmo()[pri:-1, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:18 PDT" name="testGmo" finished-at="2022-05-25T20:33:20 PDT" duration-ms="1222" status="PASS">
+        <test-method signature="testAmazon()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:28 EDT" name="testAmazon" finished-at="2023-06-23T20:35:36 EDT" duration-ms="8628" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OBT36B41', ip: '10.0.0.97', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yogit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc1737ada95f987552436ef92e725ec0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-OBT36B41', ip: '10.0.0.97', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\yogit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc1737ada95f987552436ef92e725ec0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at com.testNG.testNgAmazon.testAmazon(testNgAmazon.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGmo -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:20 PDT" name="afterMethod" finished-at="2022-05-25T20:33:20 PDT" duration-ms="2" status="PASS">
+        </test-method> <!-- testAmazon -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:36 EDT" name="afterMethod" finished-at="2023-06-23T20:35:36 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:20 PDT" name="beforeMethod" finished-at="2022-05-25T20:33:20 PDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="EnterGMOOnlineExternalframebackpack()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:20 PDT" name="EnterGMOOnlineExternalframebackpack" finished-at="2022-05-25T20:33:20 PDT" depends-on-methods="com.testNG.testNgGmo.testGmo" duration-ms="883" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EnterGMOOnlineExternalframebackpack -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:20 PDT" name="afterClass" finished-at="2022-05-25T20:33:20 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:36 EDT" name="afterClass" finished-at="2023-06-23T20:35:36 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:20 PDT" name="afterMethod" finished-at="2022-05-25T20:33:20 PDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:20 PDT" name="afterTest" finished-at="2022-05-25T20:33:20 PDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:36 EDT" name="afterTest" finished-at="2023-06-23T20:35:36 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testNG.testNgGmo@223191a6]" started-at="2022-05-25T20:33:21 PDT" name="afterSuite" finished-at="2022-05-25T20:33:21 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testNG.testNgAmazon@6fdbe764]" started-at="2023-06-23T20:35:36 EDT" name="afterSuite" finished-at="2023-06-23T20:35:36 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.testNG.testNgGmo -->
+      </class> <!-- com.testNG.testNgAmazon -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
